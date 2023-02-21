@@ -1,7 +1,4 @@
-
-#include <pangolin/pangolin.h>
-#include <Eigen/Dense>
-#include <Eigen/Geometry>
+#include "module1/PlotTrajectory.hpp"
 
 #include <iostream>
 
@@ -9,6 +6,9 @@ int main()
 {
 
     std::cout << "main" << std::endl;
+
+    test();
+
     return 0;
 }
 
